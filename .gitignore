@@ -11,3 +11,4 @@ data/*.csv # optional: dont commit cached API data
    echo "data/*.csv" >> .gitignore   # optional: dont commit cached API data
 __pycache__/
 *.pyc
+data/nutrients_scored.csv
