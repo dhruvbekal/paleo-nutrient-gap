@@ -57,3 +57,6 @@ outliers (e.g. extremely high vitamin K in nettles) from dominating the score.
 - **Change nutrients**: Edit `KEY_NUTRIENTS` and `RDA` in `src/fetch.py`
 - **Different RDA values** (e.g. for children or women): Edit `RDA` in `src/fetch.py`
 - **Radar charts for specific pairs**: Pass `radar_pairs=["venison", ...]` in `main.py`
+
+![Delta Comparison](outputs/figures/02_delta_comparison.png)
+![Heatmap](outputs/figures/04_heatmap.png)
