@@ -25,20 +25,15 @@ python main.py --refresh
 ```
 .
 ├── main.py                  # Entry point
-├── src/
-│   ├── fetch.py             # USDA API calls + food pair definitions
-│   ├── score.py             # % RDA scoring + analysis functions
-│   └── visualize.py         # All chart generation
+├── fetch.py             # USDA API calls + food pair definitions
+├── score.py             # % RDA scoring + analysis functions
+├── visualize.py         # All chart generation
 ├── data/
 │   ├── nutrients_raw.csv    # Cached raw API data (auto-created)
 │   └── nutrients_scored.csv # Scored output (auto-created)
 └── outputs/
     └── figures/             # All PNG charts (auto-created)
-        ├── 01_overall_scores.png
-        ├── 02_delta_comparison.png
-        ├── 03_radar_<pair>.png
-        ├── 04_heatmap.png
-        └── 05_era_boxplots.png
+        
 ```
 
 ## Scoring Method
