@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+data/*.csv # optional: dont commit cached API data
+   git rm -r --cached __pycache__
+   git add .gitignore
+   git commit -m "Add .gitignore, remove pycache"
+   git push
+
+[200~echo "__pycache__/" >> .gitignore
+   echo "*.pyc" >> .gitignore
+   echo "data/*.csv" >> .gitignore   # optional: dont commit cached API data
